@@ -10,13 +10,13 @@
     <header>
         <h1>GUILHERME DE OLIVEIRA VITAL</h1>
         <p>Estudante de Sistemas de Informação</p>
-        <img src="imagens/perfil.jpeg" alt="perfil" width="200px" height="200px">
-        <nav>
+        <img src="imagens/perfil.jpeg" alt="perfil" id="perfil">
+        <nav id="navbar">
            <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
+            <a href="#sobre-mim"><li>Sobre Mim</li></a>
+            <a href="#habilidades"><li>Habilidades</li></a>
+            <a href="#projetos"><li>Projetos</li></a>
+            <a href="#contato"><li>contato</li></a>
            </ul>
         </nav>
     </header>
@@ -83,19 +83,19 @@
         <p>Você pode entrar em contato comigo através de minhas redes sociais</p>
         <section id="contatos">
             <article>
-                <img src="imagens/logo-whatsapp.jpg " alt="">
+                <a href="https://wa.me/5534999831256" target="_blank"><img src="imagens/logo-whatsapp.jpg " alt="Whatsapp"></a>
                 <h4>Whatsapp</h4>
             </article>
             <article>
-                <img src="imagens/logo-instagram.jpg" alt="instagram">
+                <a href="https://www.instagram.com/gui.vital/" target="_blank"><img src="imagens/logo-instagram.jpg" alt="instagram"></a>
                 <h4>Instrgram</h4>
             </article>
             <article>
-                <img src="imagens/logo-facebook.jpg" alt="FaceBook">
+                <a href="https://www.facebook.com/guilherme.deoliveiravital.5?mibextid=ZbWKwL" target="_blank"><img src="imagens/logo-facebook.jpg" alt="FaceBook"></a>
                 <h4>FaceBook</h4>
             </article>
             <article>
-                <img src="imagens/logo-github.jpg" alt="github">
+                <a href="https://github.com/GuilhermeOV" target="_blank"><img src="imagens/logo-github.jpg" alt="github"></a>
                 <h4>Github</h4>
             </article>
         </section>
@@ -103,5 +103,21 @@
     <footer>
         <p>&copy; 2024 Guilherme de Oliveira Vital. Todos os direitos reservados.</p>
     </footer>
+    <script>
+        // Função para adicionar a classe nav-fixed
+        function handleScroll() {
+            const navbar = document.getElementById('navbar');
+            const scrollPosition = window.scrollY;
+
+            if (scrollPosition > 400) { // Altere 200 para a distância em que deseja que a navegação se fixe
+                navbar.classList.add('nav-fixed');
+            } else {
+                navbar.classList.remove('nav-fixed');
+            }
+        }
+
+        // Adiciona o evento de rolagem
+        window.addEventListener('scroll', handleScroll);
+    </script>
 </body>
 </html>
