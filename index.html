@@ -12,108 +12,119 @@
         <p>Estudante de Sistemas de Informação</p>
         <img src="imagens/perfil.jpeg" alt="perfil" id="perfil">
         <nav id="navbar">
-           <ul>
-            <a href="#sobre-mim"><li>Sobre Mim</li></a>
-            <a href="#habilidades"><li>Habilidades</li></a>
-            <a href="#projetos"><li>Projetos</li></a>
-            <a href="#contato"><li>contato</li></a>
-           </ul>
+          <ul>
+            <li><a class="menu" href="#sobre-mim" onclick="clicou()">Sobre Mim</a></li>
+            <li><a class="menu" href="#habilidades" onclick="clicou()" >Habilidades</a></li>
+            <li><a class="menu" href="#projetos"onclick="clicou()" >Projetos</a></li>
+            <li><a class="menu" href="#contato"onclick="clicou()" >Contato</a></li>
+          </ul>
         </nav>
     </header>
-    <section id="sobre-mim">
-        <h2>Sobre mim</h2>
-        <p>Meu nome é Guilherme, tenho 21 anos e estou cursando Sistemas de Informação na Uniube. Sou apaixonado por desenvolvimento de software e tecnologia. Nos meus momentos livres, gosto de explorar a criação de sites e aplicativos, sempre buscando novas maneiras de aprimorar minhas habilidades.</p>
-        <p>Estou constantemente em busca de mais conhecimento, seja por meio de cursos online ou assistindo a vídeos sobre temas relacionados à tecnologia. Meu objetivo é estar sempre atualizado e preparado para os desafios do mercado de TI.</p>
-     </section>
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <h3>Aqui estão as linguagens que possuo conhecimento</h3>
-        <article>
-            <h4>HTML</h4>
-            <img src="imagens/html2.webp" alt="HTML">
-            <p>Criação de estruturas semânticas e acessíveis para a web</p>
-        </article>
-        <article>
-            <h4>CSS</h4>
-            <img src="imagens/CSS3_logo.svg.png" alt="CSS">
-            <p>Estilização e design responsivo utilizando Flexbox e Grid</p>
-        </article>
-        <article>
-            <h4>JavaScript</h4>
-            <img src="imagens/javascript.png" alt="JavaScript">
-            <p>Interatividade e dinamicidade em websites com JavaScript moderno</P>
-        </article>
-        <article>
-            <h4>Python</h4>
-            <img src="imagens/Python.png" alt="Python">
-            <p>Desenvolvimento de scripts, automações e projetos web com Django</p>
-        </article>
-        <article>
-            <h4>PHP</h4>
-            <img src="imagens/PHP.png" alt="PHP">
-            <p>Desenvolvimento de back-end com foco em aplicações web dinâmicas</p>
-        </article>
-        <article>
-            <h4>SQL e Banco de Dados</h4>
-            <img src="imagens/SQL.png" alt="Sql">
-            <p>Criação, gerenciamento e otimização de bancos de dados relacionais</p>
-        </article>
-    </section>
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <h3>Aqui estão alguns projetos que desenvolvi</h3>
-        <article>
-            <h4>Site Multi-tarefas e interatividade</h4>
-            <iframe src="https://guilhermeov.github.io/Projetos/" frameborder="0" width="300px" height="500px"></iframe>
-            <p>Neste projeto desenvolvi um site que possui algumas funções e interatividades, como por exemplo:</p>
-            <p><strong>PHOTO INTERATIVE: </strong>Este item do site seria apenas para interatividade e diversão, onde o usuário seleciona a cor de fundo do site, seleciona uma imagem de sua escolha, e um texto, e quando o usuario envia esses dados ao formulario, o site se auto-configura da forma que o usuário desejou criar.</p>
-            <p><strong>TO DO LIST:</strong>Este item do site se trata de uma lista de tarefas, onde o usuario pode adicionar tarefas do dia a dia, pode remove-las, pode editar a tarefa que criou, e pode marcar como concluida a tarefa, adicionei uma função em Javascript para que, quando a lista chegar ao final, automaticamente é criado uma nova pagina para que o usuário possa continuar adicionando suas tarefas.</p>
-            <p><strong>CALCULATOR: </strong>este item do site se trata de uma calculadora com funções simples como somar, diminuir, multiplicar e dividir. </p>
-        </article>
-    </section>
-    <section>
-       <h4>SISTEMA DE MONITORAMENTO DE CÂMERAS</h4>
-       <video controls width="400px">
-        <source src="imagens/2024-08-12 14-56-14.mp4" type="video/MP4">
-       </video>
-       <p>Neste projeto eu desenvolvi um sistema de monitoramento de cameras, onde utilizai câmeras ficticias apenas para testes do projeto, e nelas apliquei as funções criadas como ligar/desligar, gravar, ampliar a câmera, tirar print e navegar entre as câmeras ampliadas.</p>
-    </section>
-    <section id="contato">
-        <h2>CONTATO</h2>
-        <p>Você pode entrar em contato comigo através de minhas redes sociais</p>
-        <section id="contatos">
+    <main>
+        <section id="sobre-mim">
+            <h2>Sobre mim</h2>
+            <p>Meu nome é Guilherme, tenho 21 anos e estou cursando Sistemas de Informação na Uniube. Sou apaixonado por desenvolvimento de software e tecnologia. Nos meus momentos livres, gosto de explorar a criação de sites e aplicativos, sempre buscando novas maneiras de aprimorar minhas habilidades.</p>
+            <p>Estou constantemente em busca de mais conhecimento, seja por meio de cursos online ou assistindo a vídeos sobre temas relacionados à tecnologia. Meu objetivo é estar sempre atualizado e preparado para os desafios do mercado de TI.</p>
+         </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <h3>Aqui estão as linguagens que possuo conhecimento</h3>
             <article>
-                <a href="https://wa.me/5534999831256" target="_blank"><img src="imagens/logo-whatsapp.jpg " alt="Whatsapp"></a>
-                <h4>Whatsapp</h4>
+                <h4>HTML</h4>
+                <img src="imagens/html2.webp" alt="HTML">
+                <p>Criação de estruturas semânticas e acessíveis para a web</p>
             </article>
             <article>
-                <a href="https://www.instagram.com/gui.vital/" target="_blank"><img src="imagens/logo-instagram.jpg" alt="instagram"></a>
-                <h4>Instrgram</h4>
+                <h4>CSS</h4>
+                <img src="imagens/CSS3_logo.svg.png" alt="CSS">
+                <p>Estilização e design responsivo utilizando Flexbox e Grid</p>
             </article>
             <article>
-                <a href="https://www.facebook.com/guilherme.deoliveiravital.5?mibextid=ZbWKwL" target="_blank"><img src="imagens/logo-facebook.jpg" alt="FaceBook"></a>
-                <h4>FaceBook</h4>
+                <h4>JavaScript</h4>
+                <img src="imagens/javascript.png" alt="JavaScript">
+                <p>Interatividade e dinamicidade em websites com JavaScript moderno</P>
             </article>
             <article>
-                <a href="https://github.com/GuilhermeOV" target="_blank"><img src="imagens/logo-github.jpg" alt="github"></a>
-                <h4>Github</h4>
+                <h4>Python</h4>
+                <img src="imagens/Python.png" alt="Python">
+                <p>Desenvolvimento de scripts, automações e projetos web com Django</p>
+            </article>
+            <article>
+                <h4>PHP</h4>
+                <img src="imagens/PHP.png" alt="PHP">
+                <p>Desenvolvimento de back-end com foco em aplicações web dinâmicas</p>
+            </article>
+            <article>
+                <h4>SQL e Banco de Dados</h4>
+                <img src="imagens/SQL.png" alt="Sql">
+                <p>Criação, gerenciamento e otimização de bancos de dados relacionais</p>
             </article>
         </section>
-    </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <h3>Aqui estão alguns projetos que desenvolvi</h3>
+            <article>
+                <h4>Site Multi-tarefas e interatividade</h4>
+                <iframe src="https://guilhermeov.github.io/Projetos/" frameborder="0"></iframe>
+                <p style="font-size: 20px;" >Neste projeto desenvolvi um site que possui algumas funções e interatividades, como por exemplo:</p>
+                <p><strong>PHOTO INTERATIVE: </strong>Este item do site seria apenas para interatividade e diversão, onde o usuário seleciona a cor de fundo do site, seleciona uma imagem de sua escolha, e um texto, e quando o usuario envia esses dados ao formulario, o site se auto-configura da forma que o usuário desejou criar.</p>
+                <p><strong>TO DO LIST:</strong>Este item do site se trata de uma lista de tarefas, onde o usuario pode adicionar tarefas do dia a dia, pode remove-las, pode editar a tarefa que criou, e pode marcar como concluida a tarefa, adicionei uma função em Javascript para que, quando a lista chegar ao final, automaticamente é criado uma nova pagina para que o usuário possa continuar adicionando suas tarefas.</p>
+                <p><strong>CALCULATOR: </strong>este item do site se trata de uma calculadora com funções simples como somar, diminuir, multiplicar e dividir. </p>
+            </article>
+    
+        <article>
+           <h4>SISTEMA DE MONITORAMENTO DE CÂMERAS</h4>
+           <video controls width="400px">
+            <source src="imagens/2024-08-12 14-56-14.mp4" type="video/MP4">
+           </video>
+           <p style="font-size: 20px;">Neste projeto eu desenvolvi um sistema de monitoramento de cameras, onde utilizai câmeras ficticias apenas para testes do projeto, e nelas apliquei as funções criadas como ligar/desligar, gravar, ampliar a câmera, tirar print e navegar entre as câmeras ampliadas.</p>
+        </article>    </section>
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p style="margin-bottom: 5%;">Você pode entrar em contato comigo através de minhas redes sociais</p>
+            <section id="contatos">
+                <article>
+                    <a href="https://wa.me/5534999831256" target="_blank"><img src="imagens/logo-whatsapp.jpg " alt="Whatsapp"></a>
+                    <h4>Whatsapp</h4>
+                </article>
+                <article>
+                    <a href="https://www.instagram.com/gui.vital/" target="_blank"><img src="imagens/logo-instagram.jpg" alt="instagram"></a>
+                    <h4>Instagram</h4>
+                </article>
+                <article>
+                    <a href="https://www.facebook.com/guilherme.deoliveiravital.5?mibextid=ZbWKwL" target="_blank"><img src="imagens/logo-facebook.jpg" alt="FaceBook"></a>
+                    <h4>FaceBook</h4>
+                </article>
+                <article>
+                    <a href="https://github.com/GuilhermeOV" target="_blank"><img src="imagens/logo-github.jpg" alt="github"></a>
+                    <h4>Github</h4>
+                </article>
+            </section>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 Guilherme de Oliveira Vital. Todos os direitos reservados.</p>
     </footer>
     <script>
-        // Função para adicionar a classe nav-fixed
+    const body = document.body;
+
+        // Função para adicionar ou remover a classe nav-fixed
         function handleScroll() {
             const navbar = document.getElementById('navbar');
             const scrollPosition = window.scrollY;
 
-            if (scrollPosition > 400) { // Altere 200 para a distância em que deseja que a navegação se fixe
+            if (scrollPosition > 400) { // Altere 400 para o valor que deseja
                 navbar.classList.add('nav-fixed');
+                body.style.marginTop = '60px'; // Ajuste para a altura do nav
             } else {
                 navbar.classList.remove('nav-fixed');
+                body.style.marginTop = '0'; // Remove a margem quando o nav não está fixo
             }
+        }
+
+        // Função chamada ao clicar em um link
+        function clicou() {
+            body.style.marginTop = '-15%'; // Ajuste a margem superior quando um link é clicado
         }
 
         // Adiciona o evento de rolagem
