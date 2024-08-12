@@ -51,7 +51,7 @@ h1 {
 nav {
     width: 100%;
     background-color: var(--seduncaria);
-    padding: 10px;
+    
 }
 
 .nav-fixed {
@@ -61,7 +61,7 @@ nav {
     width: 100%;
     background-color: var(--seduncaria);
     z-index: 1000;
-    padding: 14px;
+   
 }
 ul {
     display: flex;
@@ -165,9 +165,7 @@ footer p{
    h1{
     font-size: 45px;
    }
-   nav{
-    padding: 20px;
-   }
+
    
   main,#habilidades,#projetos,#contato,#habilidades article{
     margin: 0;
