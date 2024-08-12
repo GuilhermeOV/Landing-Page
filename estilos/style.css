@@ -1,0 +1,23 @@
+@charset "UTF-8";
+:root{
+    --fundo: #121212 ;
+    --primaria: #1E88E5;
+    --seduncaria: #00ACC1;
+    --texto: #E0E0E0;
+    --destaque: #FFEB3B; 
+}*{
+    color: var(--texto);
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: var(--fundo);
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#site{
+    width: 400px;
+}
