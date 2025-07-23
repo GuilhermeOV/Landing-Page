@@ -55,7 +55,6 @@ header {
     z-index: 0;
 }
 
-/* Pilar da direita */
 .pilar-direito {
     position: absolute;
     top: 100px;
@@ -203,10 +202,14 @@ footer p{
     font-weight: bolder;
 }
 @media (min-width:600px) {
+
+  
    h1{
     font-size: 45px;
    }
-
+.pilar-direito,.pilar-esquerdo{
+    display: none;
+}
    
   main,#habilidades,#projetos,#contato,#habilidades article{
     margin: 0;
